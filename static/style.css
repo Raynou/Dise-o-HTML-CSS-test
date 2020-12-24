@@ -3,11 +3,17 @@
 }
 
 body{
-    background: wheat;
+    background: beige;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 header{
-    background:aqua ;
+    background:black ;
+    border-radius: 10px;
 }
 header ul{
     display: flex;
@@ -16,4 +22,36 @@ header ul{
 header ul li{
     margin: 15px;
     padding: 5px;
+    background: rgb(80, 89, 114);
+    border-radius: 4px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*article*/
+
+article{
+    border-radius: 15px;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+article h1{
+    padding: 5px;
+}
+article p{
+    padding: 5px;
+}
+/*article*/
+
+footer{
+    text-align: center;
+    background: rgb(80, 89, 114);
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
