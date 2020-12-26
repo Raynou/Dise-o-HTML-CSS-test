@@ -67,6 +67,9 @@ article h1{
 article p{
     padding: 5px;
 }
+img{
+    float: right;
+}
 
 /*article*/
 
