@@ -6,6 +6,7 @@ body{
     background: beige;
 }
 
+/*header*/
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -22,13 +23,34 @@ header ul{
 header ul li{
     margin: 15px;
     padding: 5px;
+    width: 60px;
+    height: 25px;
+    box-sizing: content-box;
+    text-align: center;
     background: rgb(80, 89, 114);
     border-radius: 4px;
+    transition: .5s;
+    
 }
 header ul li a{
     text-decoration: none;
     color: black;
 }
+
+header ul li:hover{
+    background:white;
+    color: black;
+    box-shadow: blue;
+    font-size: 20px;
+    width: 75px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+
+/*header*/
 
 /*article*/
 
@@ -45,6 +67,7 @@ article h1{
 article p{
     padding: 5px;
 }
+
 /*article*/
 
 footer{
