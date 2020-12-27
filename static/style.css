@@ -29,7 +29,7 @@ header ul li{
     text-align: center;
     background: rgb(80, 89, 114);
     border-radius: 4px;
-    transition: .5s;
+    transition: height 0.1s, width 0.1s, background 1s, font-size 0.1s;
     
 }
 header ul li a{
@@ -70,6 +70,23 @@ article p{
 img{
     float: right;
 }
+
+.Link_FB{
+    
+}
+
+article a:link{
+    color: cyan;
+}
+
+article a:visited{
+    color: brown;
+}
+
+hr{
+    background: black;
+}
+
 
 /*article*/
 
