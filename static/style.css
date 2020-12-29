@@ -72,14 +72,17 @@ img{
     
     transition: width 1s, height 1s, border-radious 1s, opacity 0.5s, background, 0.5s;
 }
-
+.article__div:lang(lat){
+    color: red;
+}
+/*hover
 img:active{
     width: 302px;
     height: 302px;
     border-radius: 7px;
     background: #FFFDE4;
     opacity: 0.9;
-}
+}*/
 hr{
     background: black;
 }
