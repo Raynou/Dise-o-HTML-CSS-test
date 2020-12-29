@@ -69,20 +69,17 @@ article p{
 }
 img{
     float: right;
-}
-
-.Link_FB{
     
+    transition: width 1s, height 1s, border-radious 1s, opacity 0.5s, background, 0.5s;
 }
 
-article a:link{
-    color: cyan;
+img:active{
+    width: 302px;
+    height: 302px;
+    border-radius: 7px;
+    background: #FFFDE4;
+    opacity: 0.9;
 }
-
-article a:visited{
-    color: brown;
-}
-
 hr{
     background: black;
 }
